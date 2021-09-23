@@ -8,12 +8,22 @@
   --secondary-background-color: #f5f4fa;
 }
 
-/* Убираем засечки шрифта, задаем отступы */
 body {
-  font-family: 'Roboto sans-serif';
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--primary-title-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
 }
 
 /* убираем подчеркивание */
@@ -36,6 +46,7 @@ body {
   line-height: calc(31 / 26);
   color: #000000;
 }
+
 .span-logo {
   color: var(--accent-color);
 }
