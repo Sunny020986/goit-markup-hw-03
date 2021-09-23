@@ -8,6 +8,7 @@
   --secondary-background-color: #f5f4fa;
 }
 
+/* стандартные параметры стиля */
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
@@ -15,19 +16,26 @@ body {
   background-color: var(--primary-title-color);
 }
 
+/* стандартные параметры контейнера */
 .container {
   width: 1170;
-  padding-left: 15;
-  padding-right: 15;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+  background-color: rgb(196, 209, 168);
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 
+/* стандартные параметры текстового контента */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul {
   padding: 0;
   margin: 0;
 }
@@ -131,23 +139,24 @@ p {
 }
 
 .main-btn {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+  min-width: 200px;
   font-size: 16px;
   line-height: calc(30 / 16);
-  display: flex;
-  align-items: center;
-  text-align: center;
+  padding: 10px 32px;
+  border-radius: 4px;
   letter-spacing: 0.06em;
-  cursor: pointer;
   color: var(--primary-title-color);
   background: var(--accent-color);
 }
 .main-btn:focus,
-.main-btn:focus {
+.main-btn:hover {
   cursor: pointer;
   color: var(--accent-color);
-  background: #ffffff;
+  background: var(--primary-title-color);
 }
 
 /****  Section propertyes  ****/
