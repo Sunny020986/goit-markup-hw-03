@@ -55,6 +55,13 @@ ul {
   /* background-color: yellow; */
 }
 
+.header .container{
+  display: flex;
+}
+.nav{
+  display: flex;
+}
+
 .header-list{
 display: flex;
 }
