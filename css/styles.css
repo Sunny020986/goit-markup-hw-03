@@ -64,6 +64,7 @@ ul {
 }
 
 .header-list {
+  margin-left: 92px;
   display: flex;
 }
 
@@ -80,7 +81,6 @@ ul {
   color: #000000;
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-right: 92px;
 }
 
 .span-logo {
