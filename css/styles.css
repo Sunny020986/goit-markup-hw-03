@@ -20,7 +20,7 @@ body {
 /* xxxxxxxxxxxxxxxxxxxx */
 
 /* дополнительные параметры сброса отступов */
-h1, 
+h1,
 h2,
 h3,
 h4,
@@ -30,7 +30,7 @@ p,
 ul {
   padding: 0;
   margin: 0;
-} 
+}
 
 /* убираем подчеркивание */
 .link {
@@ -55,18 +55,18 @@ ul {
   /* background-color: yellow; */
 }
 
-.header .container{
+.header .container {
   display: flex;
 }
-.nav{
+.nav {
   display: flex;
 }
 
-.header-list{
-display: flex;
+.header-list {
+  display: flex;
 }
 
-.header-list :not(:last-child){
+.header-list :not(:last-child) {
   margin-right: 50px;
 }
 
@@ -92,19 +92,19 @@ display: flex;
 
   padding-top: 32px;
   padding-bottom: 32px;
-  display: block
-  
+  display: block;
 }
 
-.auth-nav{
+.auth-nav {
   display: flex;
+  margin-left: auto;
 }
 /* .auth-nav :not(:last-child){
   display: flex;
 margin left: 50px;
 } */
 
-.auth-nav .auth-item + .auth-item{
+.auth-nav .auth-item + .auth-item {
   margin-left: 50px;
 }
 
@@ -114,10 +114,10 @@ margin left: 50px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--secondary-title-color);
-  
+
   padding-top: 32px;
   padding-bottom: 32px;
-  display: block
+  display: block;
 }
 
 .header-contact {
@@ -126,10 +126,10 @@ margin left: 50px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  
+
   padding-top: 32px;
   padding-bottom: 32px;
-  display: block
+  display: block;
 }
 
 .header-link:hover,
@@ -166,9 +166,8 @@ margin left: 50px;
 /****  section hero  *****/
 .hero {
   background-color: var(--background-color);
-  padding left:200px; 
-  padding right: 200px;
-  padding top: 452px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -179,6 +178,7 @@ margin left: 50px;
   max-width: 696px;
   text-transform: uppercase;
   color: var(--primary-title-color);
+
   margin-bottom: 30px;
 }
 
@@ -187,14 +187,12 @@ margin left: 50px;
   font-weight: bold;
   display: inline-block;
   cursor: pointer;
-  /* border: 1px solid transparent; */
   min-width: 200px;
   font-size: 16px;
   line-height: calc(30 / 16);
   padding: 10px 32px;
   border-radius: 4px;
   letter-spacing: 0.06em;
-  margin-bottom: 200px;
 
   color: var(--primary-title-color);
   background: var(--accent-color);
