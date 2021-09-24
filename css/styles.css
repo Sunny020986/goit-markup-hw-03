@@ -20,7 +20,7 @@ body {
 /* xxxxxxxxxxxxxxxxxxxx */
 
 /* дополнительные параметры сброса отступов */
-h1,
+h1, 
 h2,
 h3,
 h4,
@@ -30,7 +30,7 @@ p,
 ul {
   padding: 0;
   margin: 0;
-}
+} 
 
 /* убираем подчеркивание */
 .link {
@@ -45,13 +45,20 @@ ul {
 /******  Header  ******/
 
 .container {
-  width: 1170;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato;
-  background-color: rgb(196, 209, 168); */
-  margin-left: auto;
-  margin-right: auto;
+  /* border: 1 solid teal; */
+  /* outline: 2px solid red; */
+  /* background-color: yellow; */
+}
+
+.header-list{
+display: flex;
+}
+
+.header-list :not(:last-child){
+  margin-right: 50px;
 }
 
 .header-logo {
@@ -122,10 +129,12 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/****  Studio  *****/
+/****  section hero  *****/
 .hero {
   background-color: var(--background-color);
-  text-align: center;
+  padding left:200px; 
+  padding right: 200px;
+  padding top: 452px;
 }
 
 .hero-title {
@@ -136,8 +145,6 @@ ul {
   max-width: 696px;
   text-transform: uppercase;
   color: var(--primary-title-color);
-
-  padding-top: 200px;
   margin-bottom: 30px;
 }
 
