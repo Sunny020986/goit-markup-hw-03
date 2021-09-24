@@ -45,6 +45,8 @@ ul {
 /******  Header  ******/
 
 .container {
+  margin-left: auto;
+  margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -80,6 +82,23 @@ display: flex;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--accent-color);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block
+  
+}
+
+.auth-nav{
+  display: flex;
+}
+/* .auth-nav :not(:last-child){
+  display: flex;
+margin left: 50px;
+} */
+
+.auth-nav .auth-item + .auth-item{
+  margin-left: 50px;
 }
 
 .header-link {
@@ -88,6 +107,10 @@ display: flex;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--secondary-title-color);
+  
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block
 }
 
 .header-contact {
@@ -96,6 +119,10 @@ display: flex;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block
 }
 
 .header-link:hover,
