@@ -60,6 +60,7 @@ ul {
 }
 .nav {
   display: flex;
+  align-items: center;
 }
 
 .header-list {
@@ -77,6 +78,9 @@ ul {
   font-size: 26px;
   line-height: calc(31 / 26);
   color: #000000;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-right: 92px;
 }
 
 .span-logo {
