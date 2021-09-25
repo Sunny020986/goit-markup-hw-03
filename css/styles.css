@@ -170,6 +170,7 @@ margin left: 50px;
 }
 
 /****  section hero  *****/
+
 .hero {
   background-color: var(--background-color);
   padding-top: 200px;
@@ -246,18 +247,41 @@ margin left: 50px;
   color: var(--primary-text-color);
 }
 
-/**** Team section ****/
+/****************  activiti section *************/
+
+.about {
+}
+
+.about-activiti {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  color: var(--secondary-title-color);
+  margin-bottom: 50px;
+}
+
+.activiti-list {
+  display: flex;
+  margin-bottom: 94px;
+}
+
+.activiti-list .activiti-item + .activiti-item {
+  margin-left: 30px;
+}
+
+.activiti-item {
+}
+
+/*********** team section *************/
 
 .team {
   background-color: var(--secondary-background-color);
 }
 
 .about-team {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  color: var(--secondary-title-color);
 }
+
 .fond-team {
   background-color: var(--primary-title-color);
 }
@@ -284,6 +308,7 @@ margin left: 50px;
 }
 
 /******   Portfolio page   ******/
+
 .list-price {
   font-weight: bold;
   font-size: 18px;
