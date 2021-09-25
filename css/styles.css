@@ -172,6 +172,7 @@ margin left: 50px;
   background-color: var(--background-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 .hero-title {
@@ -179,11 +180,11 @@ margin left: 50px;
   font-size: 44px;
   line-height: calc(60 / 44);
   letter-spacing: 0.06em;
-  max-width: 696px;
-  text-transform: uppercase;
+  text-align: center;
   color: var(--primary-title-color);
-
+  text-transform: uppercase;
   margin-bottom: 30px;
+  max-width: 696px;
 }
 
 .main-btn {
@@ -205,8 +206,8 @@ margin left: 50px;
 .main-btn:focus,
 .main-btn:hover {
   cursor: pointer;
-  color: var(--accent-color);
-  background: var(--primary-title-color);
+  color: var(--primary-title-color);
+  background: #188ce8;
 }
 
 /****  Section propertyes  ****/
