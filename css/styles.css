@@ -42,7 +42,7 @@ ul {
   list-style: none;
 }
 
-/******  Header  ******/
+/*  общий клас контейнер  */
 
 .container {
   margin-left: auto;
@@ -54,6 +54,8 @@ ul {
   /* outline: 2px solid red; */
   /* background-color: yellow; */
 }
+
+/******  Header  ******/
 
 .header .container {
   display: flex;
@@ -173,6 +175,7 @@ margin left: 50px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -195,6 +198,7 @@ margin left: 50px;
   min-width: 200px;
   font-size: 16px;
   line-height: calc(30 / 16);
+
   padding: 10px 32px;
   border-radius: 4px;
   letter-spacing: 0.06em;
@@ -206,11 +210,27 @@ margin left: 50px;
 .main-btn:focus,
 .main-btn:hover {
   cursor: pointer;
+
   color: var(--primary-title-color);
   background: #188ce8;
 }
 
-/****  Section propertyes  ****/
+/***************  benefits section  ***************/
+
+.benefits-list {
+  display: flex;
+  margin-bottom: 94px;
+}
+
+.benefits-list .benefits-item + .benefits-item {
+  margin-left: 30px;
+}
+
+.benefits-item {
+  width: 270px;
+  height: 101px;
+}
+
 .list-service {
   font-weight: bold;
   font-size: 14px;
