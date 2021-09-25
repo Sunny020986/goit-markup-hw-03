@@ -160,6 +160,8 @@ margin left: 50px;
 
 /****  Footer  ****/
 .footer {
+  padding-top: 45px;
+  padding-bottom: 75px;
   background-color: var(--background-color);
 }
 .footer-logo {
