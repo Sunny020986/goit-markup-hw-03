@@ -60,6 +60,12 @@ ul {
   padding-bottom: 94px;
 }
 
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /******  Header  ******/
 
 .header .container {
@@ -304,11 +310,17 @@ margin left: 50px;
 .team-item {
   background-color: var(--primary-title-color);
   width: 270px;
-  height: 368px;
-  left: 815px;
-  top: 1635px;
+  padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
   /* text-align: center; */
+}
+.team-item img {
+}
+
+.team-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .item-name {
