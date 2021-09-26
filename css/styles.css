@@ -408,7 +408,7 @@ margin left: 50px;
 }
 
 .portfolio-list {
-  background-color: tomato;
+  /* background-color: tomato; */
   display: flex;
   flex-wrap: wrap;
 }
