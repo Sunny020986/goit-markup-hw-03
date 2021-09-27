@@ -160,8 +160,8 @@ margin left: 50px;
 
 /****  Footer  ****/
 .footer {
-  padding-top: 45px;
-  padding-bottom: 75px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--background-color);
 }
 .footer-logo {
@@ -173,6 +173,11 @@ margin left: 50px;
   line-height: calc(31 / 26);
   color: var(--primary-title-color);
 }
+
+.footer-list .footr-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer-address {
   font-style: normal;
   font-size: 14px;
