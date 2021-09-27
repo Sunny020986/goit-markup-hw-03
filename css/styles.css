@@ -240,9 +240,6 @@ margin left: 50px;
 
 /***************  benefits section  ***************/
 
-.benefits {
-}
-
 .benefits-list {
   display: flex;
 }
@@ -253,10 +250,11 @@ margin left: 50px;
 
 .benefits-item {
   width: 270px;
-  height: 101px;
+  /* height: 101px; */
 }
 
 .list-service {
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -268,6 +266,7 @@ margin left: 50px;
   font-weight: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
