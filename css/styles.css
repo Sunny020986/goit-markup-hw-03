@@ -70,6 +70,7 @@ ul {
 
 .header .container {
   display: flex;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .nav {
   display: flex;
@@ -174,8 +175,9 @@ margin left: 50px;
   color: var(--primary-title-color);
 }
 
-.footer-list .footr-item:not(:last-child) {
+.footer-list .footer-item:not(:last-child) {
   margin-bottom: 9px;
+  background-color: tomato;
 }
 
 .footer-address {
