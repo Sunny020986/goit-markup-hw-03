@@ -283,7 +283,6 @@ margin left: 50px;
 
 .activiti-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .activiti-list .activiti-item + .activiti-item {
@@ -298,11 +297,9 @@ margin left: 50px;
 
 .tittle-team {
   margin-bottom: 50px;
-
   font-weight: bold;
   font-size: 36px;
   line-height: calc(42 / 36);
-
   color: var(--secondary-title-color);
   text-align: center;
 }
