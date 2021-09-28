@@ -69,12 +69,11 @@ ul {
 /******  Header  ******/
 
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
   display: flex;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .nav {
   display: flex;
@@ -260,10 +259,6 @@ margin left: 50px;
 
 .benefits-item {
   width: 270px;
-<<<<<<< Updated upstream
-  /* height: 101px; */
-=======
->>>>>>> Stashed changes
 }
 
 .list-service {
@@ -295,7 +290,7 @@ margin left: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
   color: var(--secondary-title-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .activiti-list {
