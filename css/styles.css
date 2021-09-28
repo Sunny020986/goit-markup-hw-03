@@ -158,7 +158,9 @@ margin left: 50px;
 .header-contact:hover,
 .header-contact:focus,
 .footer-contact:hover,
-.footer-contact:focus {
+.footer-contact:focus,
+.footer-address:hover,
+.footer-address:focus {
   color: var(--accent-color);
 }
 
